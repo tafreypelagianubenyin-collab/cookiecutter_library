@@ -1,0 +1,223 @@
+{% extends "base.html" %}
+
+{% block title %}
+  About - Library Management System
+{% endblock title %}
+
+{% block content %}
+
+<div class="min-h-screen bg-gray-100">
+
+  <!-- Hero Section -->
+  <section class="bg-blue-600 px-6 py-16 text-white">
+    <div class="mx-auto max-w-5xl text-center">
+
+      <p class="mb-3 text-sm font-semibold uppercase tracking-widest text-blue-200">
+        About the Project
+      </p>
+
+      <h1 class="text-4xl font-extrabold tracking-tight sm:text-5xl">
+        Library Management System
+      </h1>
+
+      <p class="mx-auto mt-6 max-w-3xl text-lg leading-8 text-blue-100">
+        A modern web-based system designed to make the management
+        of books, authors, and library information simple, organized,
+        and efficient.
+      </p>
+
+    </div>
+  </section>
+
+
+  <!-- Main Content -->
+  <section class="px-6 py-12">
+    <div class="mx-auto max-w-5xl">
+
+      <!-- What is the project? -->
+      <div class="rounded-2xl bg-white p-8 shadow-lg">
+
+        <h2 class="text-2xl font-bold text-gray-900">
+          What is this project about?
+        </h2>
+
+        <p class="mt-4 leading-7 text-gray-600">
+          The Library Management System is a web application developed
+          to provide a centralized platform for managing library
+          resources. It allows users to view books, search for books,
+          access information about authors, and manage book records
+          through an easy-to-use interface.
+        </p>
+
+        <p class="mt-4 leading-7 text-gray-600">
+          The system also provides authenticated users with personal
+          account management features, including profile information,
+          profile pictures, email management, and additional security
+          settings.
+        </p>
+
+      </div>
+
+
+      <!-- Features -->
+      <div class="mt-8">
+
+        <h2 class="mb-6 text-2xl font-bold text-gray-900">
+          What can the system do?
+        </h2>
+
+        <div class="grid gap-6 md:grid-cols-2">
+
+          <!-- Book Management -->
+          <div class="rounded-xl bg-white p-6 shadow-md ring-1 ring-gray-200">
+
+            <div class="mb-4 flex h-12 w-12 items-center justify-center rounded-lg bg-blue-100 text-2xl">
+              📚
+            </div>
+
+            <h3 class="text-xl font-semibold text-gray-900">
+              Book Management
+            </h3>
+
+            <p class="mt-3 leading-6 text-gray-600">
+              Add, edit, view, and delete books while keeping important
+              information such as the title, summary, publication year,
+              availability, author, and cover image.
+            </p>
+
+          </div>
+
+
+          <!-- Author Management -->
+          <div class="rounded-xl bg-white p-6 shadow-md ring-1 ring-gray-200">
+
+            <div class="mb-4 flex h-12 w-12 items-center justify-center rounded-lg bg-green-100 text-2xl">
+              ✍️
+            </div>
+
+            <h3 class="text-xl font-semibold text-gray-900">
+              Author Management
+            </h3>
+
+            <p class="mt-3 leading-6 text-gray-600">
+              Create and manage author records, including their name,
+              nationality, and date of birth, and associate authors
+              with their books.
+            </p>
+
+          </div>
+
+
+          <!-- Search -->
+          <div class="rounded-xl bg-white p-6 shadow-md ring-1 ring-gray-200">
+
+            <div class="mb-4 flex h-12 w-12 items-center justify-center rounded-lg bg-purple-100 text-2xl">
+              🔎
+            </div>
+
+            <h3 class="text-xl font-semibold text-gray-900">
+              Book Search
+            </h3>
+
+            <p class="mt-3 leading-6 text-gray-600">
+              Quickly find books using the search feature, making it
+              easier to navigate through a growing collection.
+            </p>
+
+          </div>
+
+
+          <!-- User Accounts -->
+          <div class="rounded-xl bg-white p-6 shadow-md ring-1 ring-gray-200">
+
+            <div class="mb-4 flex h-12 w-12 items-center justify-center rounded-lg bg-orange-100 text-2xl">
+              👤
+            </div>
+
+            <h3 class="text-xl font-semibold text-gray-900">
+              User Accounts
+            </h3>
+
+            <p class="mt-3 leading-6 text-gray-600">
+              Users can create accounts, manage their profiles,
+              upload profile pictures, manage email settings, and
+              configure additional account security features.
+            </p>
+
+          </div>
+
+        </div>
+
+      </div>
+
+
+      <!-- Technology -->
+      <div class="mt-10 rounded-2xl bg-white p-8 shadow-lg">
+
+        <h2 class="text-2xl font-bold text-gray-900">
+          Technologies Used
+        </h2>
+
+        <p class="mt-3 text-gray-600">
+          The project combines modern web development technologies
+          to provide a structured and responsive application.
+        </p>
+
+        <div class="mt-6 flex flex-wrap gap-3">
+
+          <span class="rounded-full bg-blue-100 px-4 py-2 text-sm font-semibold text-blue-700">
+            Python
+          </span>
+
+          <span class="rounded-full bg-green-100 px-4 py-2 text-sm font-semibold text-green-700">
+            Django
+          </span>
+
+          <span class="rounded-full bg-cyan-100 px-4 py-2 text-sm font-semibold text-cyan-700">
+            Tailwind CSS
+          </span>
+
+          <span class="rounded-full bg-purple-100 px-4 py-2 text-sm font-semibold text-purple-700">
+            PostgreSQL
+          </span>
+
+          <span class="rounded-full bg-gray-100 px-4 py-2 text-sm font-semibold text-gray-700">
+            HTML
+          </span>
+
+          <span class="rounded-full bg-yellow-100 px-4 py-2 text-sm font-semibold text-yellow-700">
+            JavaScript
+          </span>
+
+        </div>
+
+      </div>
+
+
+      <!-- Purpose -->
+      <div class="mt-10 rounded-2xl bg-gray-900 p-8 text-white shadow-lg">
+
+        <h2 class="text-2xl font-bold">
+          Project Purpose
+        </h2>
+
+        <p class="mt-4 leading-7 text-gray-300">
+          The purpose of this project is to demonstrate how a complete
+          web-based library management system can be designed and
+          developed using modern software engineering practices.
+          It brings together database management, authentication,
+          CRUD operations, search functionality, media uploads,
+          responsive user interfaces, and account management in
+          one application.
+        </p>
+
+      </div>
+
+    </div>
+  </section>
+
+</div>
+
+{% endblock content %}
+
+

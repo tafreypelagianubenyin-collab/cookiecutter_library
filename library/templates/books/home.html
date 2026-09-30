@@ -1,0 +1,20 @@
+{% extends "base.html" %}
+
+{% block title %}Home - My Library{% endblock title %}
+
+{% block content %}
+<div class="text-center py-12 bg-white rounded-lg shadow-sm border p-8 max-w-2xl mx-auto my-auto">
+    <h1 class="text-4xl font-extrabold text-blue-600 mb-4">
+        Welcome to My Library
+    </h1>
+
+    <p class="text-gray-600 mb-6 text-lg">
+        Explore our collection of books and authors easily.
+    </p>
+
+    <a href="{% url 'books:book_list' %}"
+       class="inline-block bg-blue-600 hover:bg-blue-700 text-white font-semibold px-6 py-3 rounded-md transition shadow">
+        Browse Books Collection &rarr;
+    </a>
+</div>
+{% endblock content %}
